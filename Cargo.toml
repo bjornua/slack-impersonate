@@ -1,0 +1,13 @@
+[package]
+name = "slack-impersonate"
+version = "0.0.1"
+authors = ["Bjørn Uhre Arnholtz <rugkiks@gmail.com>"]
+repository = "https://github.com/bjornua/slack-impersonate"
+license = "MIT"
+readme = "README.md"
+
+[profile.dev]
+debug = true
+
+[dependencies]
+markov = "0.0.32"
